@@ -1,4 +1,4 @@
-# Capstone_Project
+# Head Movement Measurement During Structural MRI
 
 Run the dense optical flow by navigating to the file in terminal. It takes 3 optional arguments: 
   print_location : bool
@@ -9,3 +9,5 @@ Run the dense optical flow by navigating to the file in terminal. It takes 3 opt
 		specified the path to the video file to process. Defaults to 'test_video.mp4'
 
 run by typing in the command "python dense_optical_flow.py" and add additional arguments as needed. e.g. "python dense_optical_flow.py True False '/path/to/video_file.mp4'"
+
+An example of how to train the deep learning model is in run_video_model.sbatch
